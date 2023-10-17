@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+/* general rules */
+body    {
+    font-family: Whitney, ‘Helvetica Neue’, Helvetica, Arial, sans-serif;
+}
+
 /* header style */
 header  {
     display: flex;
