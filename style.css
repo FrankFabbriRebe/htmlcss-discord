@@ -114,17 +114,13 @@ nav div {
     justify-content: center;
     align-items: center;
     background-color: white;
-    /* debug */
-    /* height: 500px; */
 }
 
 .section_2  {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* debug */
     background-color: grey;
-    height: 500px;
 }
 
 .section_4  {
@@ -151,9 +147,6 @@ nav div {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    /* debug */
-    
-    /* height: 400px; */
 }
 
 .container  {
