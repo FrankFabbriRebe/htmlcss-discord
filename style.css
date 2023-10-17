@@ -66,7 +66,7 @@ nav div {
     justify-content: center;
     align-items: center;
     background-image: url(img/jumbo.png);
-    background-size: contain;
+    background-size: cover;
     /* debug
     height: 400px; */
 }
@@ -127,9 +127,7 @@ nav div {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* debug */
     background-color: grey;
-    height: 700px;
 }
 
 /* div inside section style */
@@ -149,11 +147,29 @@ nav div {
     gap: 40px;
 }
 
+/* section_4 style */
+
 .container  {
     width: 80%;
-    /* debug */
-    background-color: green;
-    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    align-items: center;
+    text-align: center;
+}
+
+.container h2   {
+    margin-bottom: 20px;
+}
+
+h3  {
+    margin: -15px auto 30px;
+}
+
+#download   {
+    background-color: #6791e4;
+    margin-bottom: 30px;
 }
 
 /* footer */
