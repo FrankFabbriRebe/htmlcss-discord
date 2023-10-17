@@ -181,13 +181,13 @@ h2  {
     padding-top: 30px;
 }
 
+
 .footer_2   {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* debug */
-    background-color: rgb(52, 48, 48);
-    height: 50px;
+    background-color: #23272a;
+    padding-bottom: ;
 }
 
 .social {
@@ -243,25 +243,24 @@ h2  {
 }
 
 .footer_container   {
+    padding-top: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 80%;
     height: 90%;
-    /* debug */
-    border: 1px solid white;
+    border-top: 1px solid #6791e4;
+    padding-bottom: 30px;
 }
 
 .footer_logo    {
     height: 80%;
     width: 10%;
-    /* debug */
-    background-color: rgb(234, 128, 128); 
 }
 
-.registrati {
-    height: 80%;
-    width: 10%;
-    /* debug */
-    background-color: rgb(234, 128, 128); 
+.button_register   {
+    color: white;
+    background-color: #6791e4;
+    border-radius: 20px;
+    padding: 10px;
 }
