@@ -108,14 +108,14 @@ nav div {
 
 
 
-/* section style */
+/* main section style */
 .section_1, .section_3  {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* debug */
     background-color: white;
-    height: 500px;
+    /* debug */
+    /* height: 500px; */
 }
 
 .section_2  {
@@ -139,16 +139,21 @@ nav div {
 /* div inside section style */
 .img    {
     width: 50%;
-    /* debug */
-    background-color: rgb(95, 138, 240);
+}
+
+.img img    {
     height: 400px;
+    width: 500px;
 }
 
 .text   {
     width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
     /* debug */
-    background-color: rgb(227, 112, 214);
-    height: 400px;
+    
+    /* height: 400px; */
 }
 
 .container  {
